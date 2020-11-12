@@ -643,7 +643,7 @@ section#search-box form button {
   position: absolute;
   right: 0px;
   top: 5px;
-  background: url("/img/ico-search.gif") top left no-repeat;
+  background: url("../img/ico-search.gif") top left no-repeat;
   background-position: 0px 0px;
   height: 30px;
   width: 29px;
@@ -663,7 +663,7 @@ section#search-box form button {
 }
 @media screen and (min-width: 48em) {
   section#search-box form button {
-    background: url("/img/ico-search-desk.gif") top left no-repeat;
+    background: url("../img/ico-search-desk.gif") top left no-repeat;
     width: 31px;
     height: 30px;
     top: 0;
@@ -728,7 +728,7 @@ section#search-box form button {
   height: 28px;
   display: block;
   cursor: pointer;
-  background: url(/img/sprite2.png) no-repeat;
+  background: url(../img/sprite2.png) no-repeat;
   background-position: -1px -2px;
   float: left;
   background-size: cover;
@@ -784,7 +784,7 @@ header > div {
   height: 32px;
   display: block;
   cursor: pointer;
-  background: url("/img/sprite2.png") no-repeat;
+  background: url("../img/sprite2.png") no-repeat;
   background-position: -46px -2px;
   position: relative;
   float: right;
