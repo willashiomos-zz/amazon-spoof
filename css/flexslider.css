@@ -9,31 +9,53 @@
  * Contributing author: Tyler Smith (@mbmufffin)
  */
 
- 
 /* Browser Resets */
 .flex-container a:active,
 .flexslider a:active,
 .flex-container a:focus,
-.flexslider a:focus  {outline: none;}
+.flexslider a:focus {
+  outline: none;
+}
 .slides,
 .flex-control-nav,
-.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+.flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 /* FlexSlider Necessary Styles
-*********************************/ 
-.flexslider {margin: 0; padding: 0;}
+*********************************/
+.flexslider {
+  margin: 0;
+  padding: 0;
+}
 
-.flexslider .slides img {}
-.flex-pauseplay span {text-transform: capitalize;}
+.flexslider .slides img {
+}
+.flex-pauseplay span {
+  text-transform: capitalize;
+}
 
 /* Clearfix for the .slides element */
-.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
-html[xmlns] .slides {display: block;} 
-* html .slides {height: 1%;}
+.slides:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+html[xmlns] .slides {
+  display: block;
+}
+* html .slides {
+  height: 1%;
+}
 
 /* No JavaScript Fallback */
 /* If you are not using another script, such as Modernizr, make sure you
  * include js that eliminates this class on page load */
-.no-js .slides > li:first-child {display: block;}
-
-
+.no-js .slides > li:first-child {
+  display: block;
+}
