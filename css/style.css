@@ -62,20 +62,18 @@ section.scroll-to-content div.scroll-content-wrapper div .ico-stock:before {
     transform: translateX(0%);
   }
 }
-/* @font-face {
+@font-face {
   font-family: "amazon_emberlight";
-  src: url("/fonts/amazonember_lt-webfont.woff2") format("woff2"),
-    url("/fonts/amazonember_lt-webfont.woff") format("woff");
+  src: url("../fonts/AmazonEmber_Lt.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "amazon_emberregular";
-  src: url("/fonts/amazonember_rg-webfont.woff2") format("woff2"),
-    url("/fonts/amazonember_rg-webfont.woff") format("woff");
+  src: url("../fonts/AmazonEmber_Rg.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-} */
+}
 @font-face {
   font-family: "amazon_embermedium";
   src: url("../fonts/Amazon-Ember-Medium.woff2") format("woff2");
@@ -5733,4 +5731,17 @@ body {
 }
 #announcement a {
   color: #000000;
+}
+
+.testimonial {
+  margin-bottom: 30px;
+  display: flex !important;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .testimonial {
+    display: block !important;
+    align-items: baseline;
+  }
 }
